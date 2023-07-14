@@ -16,7 +16,7 @@ const App = () => {
         {/* Do not remove the main div */}
         <label for="name">Enter your name:</label><br/>
         <input type="text" onChange={hello}/>
-        <h1>{greeting} {name}{exclmation}</h1>
+        <p>{greeting} {name}{exclmation}</p>
     </div>
   )
 }
