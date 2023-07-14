@@ -1,1 +1,12 @@
-
+.display{
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+}
+.display input{
+    width: 200px;
+    padding:8px;
+}
+.display label{
+    font-size: 20px;
+}
